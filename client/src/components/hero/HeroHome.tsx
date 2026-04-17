@@ -24,8 +24,13 @@ export default function HeroHome() {
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gold/5 blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 w-full pt-24 pb-16">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left Content */}
+        {/*
+          Mobile: single column — text first, image below
+          Desktop (lg+): two columns side by side
+        */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+          {/* ── LEFT: Text Content ── */}
           <div>
             {/* Micro-label */}
             <motion.p
@@ -38,12 +43,12 @@ export default function HeroHome() {
               Based in Accra, Ghana
             </motion.p>
 
-            {/* Animated Heading */}
+            {/* Animated H1 */}
             <motion.h1
               variants={container}
               initial="hidden"
               animate="show"
-              className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] mb-6"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] mb-6"
             >
               {words.map((word, i) => (
                 <motion.span
@@ -63,7 +68,7 @@ export default function HeroHome() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.5 }}
-              className="text-muted text-lg leading-relaxed max-w-md mb-10"
+              className="text-muted text-base sm:text-lg leading-relaxed max-w-md mb-10"
             >
               Web Design, E-commerce & Software Development in Accra, Ghana — built for
               businesses that want real results, not just a pretty page.
@@ -74,11 +79,11 @@ export default function HeroHome() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.1, duration: 0.5 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-col sm:flex-row flex-wrap gap-4"
             >
               <Link
                 to="/portfolio"
-                className="inline-flex items-center gap-2 px-7 py-4 rounded-xl bg-gold text-ink font-semibold text-sm hover:bg-gold/90 transition-all hover:shadow-lg hover:shadow-gold/25 hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-gold text-ink font-semibold text-sm hover:bg-gold/90 transition-all hover:shadow-lg hover:shadow-gold/25 hover:-translate-y-0.5"
               >
                 View My Work
                 <ArrowRight className="w-4 h-4" />
@@ -87,7 +92,7 @@ export default function HeroHome() {
                 href={site.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-4 rounded-xl border border-gold/40 text-gold font-semibold text-sm hover:border-gold hover:bg-gold/5 transition-all"
+                className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl border border-gold/40 text-gold font-semibold text-sm hover:border-gold hover:bg-gold/5 transition-all"
               >
                 <MessageCircle className="w-4 h-4" />
                 Get Free Quote on WhatsApp
@@ -114,49 +119,57 @@ export default function HeroHome() {
             </motion.div>
           </div>
 
-          {/* Right: Laptop Mockup */}
+          {/* ── RIGHT: Hero Image ──
+              FIX: was "hidden lg:flex" — now visible on ALL screen sizes.
+              Mobile: full-width below text, rounded corners, 4:3 aspect ratio.
+              Desktop: floats right with floating stat badges.
+          */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9, x: 40 }}
-            animate={{ opacity: 1, scale: 1, x: 0 }}
+            initial={{ opacity: 0, scale: 0.95, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="relative hidden lg:flex items-center justify-center"
+            className="relative flex items-center justify-center w-full"
           >
-            {/* Laptop SVG */}
-            <div className="relative w-full max-w-lg animate-float">
-              <div className="relative rounded-3xl overflow-hidden border border-gold/30 shadow-2xl shadow-gold/10 aspect-[4/3] bg-charcoal">
+            <div className="relative w-full max-w-lg mx-auto lg:animate-float">
+              {/* Image container — aspect-ratio keeps it from collapsing */}
+              <div className="relative rounded-2xl lg:rounded-3xl overflow-hidden border border-gold/30 shadow-2xl shadow-gold/10 aspect-[4/3] bg-charcoal w-full">
                 <img
                   src="/assets/hero.jpg"
-                  alt="Lisgraphix — premium web design for Ghanaian businesses"
+                  alt="Lisgraphix — professional web design for Ghanaian businesses in Accra"
                   className="w-full h-full object-cover"
                   loading="eager"
                   fetchPriority="high"
+                  width={800}
+                  height={600}
                 />
-                {/* Subtle gradient overlay for luxury feel */}
+                {/* Gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-tr from-ink/40 via-transparent to-transparent pointer-events-none" />
               </div>
 
-              {/* Floating stat cards */}
+              {/* Floating badge — Leads */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.2, duration: 0.5 }}
-                className="absolute -left-8 top-1/4 bg-charcoal border border-gold/30 rounded-2xl px-4 py-3 shadow-xl"
+                className="absolute -left-4 sm:-left-8 top-1/4 bg-charcoal border border-gold/30 rounded-xl lg:rounded-2xl px-3 sm:px-4 py-2 sm:py-3 shadow-xl"
               >
-                <p className="text-gold font-black text-xl">+312%</p>
+                <p className="text-gold font-black text-lg sm:text-xl">+312%</p>
                 <p className="text-white/60 text-xs mt-0.5">Leads increase</p>
               </motion.div>
 
+              {/* Floating badge — Delivery */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.4, duration: 0.5 }}
-                className="absolute -right-4 bottom-16 bg-charcoal border border-gold/30 rounded-2xl px-4 py-3 shadow-xl"
+                className="absolute -right-2 sm:-right-4 bottom-10 sm:bottom-16 bg-charcoal border border-gold/30 rounded-xl lg:rounded-2xl px-3 sm:px-4 py-2 sm:py-3 shadow-xl"
               >
-                <p className="text-gold font-black text-xl">24h</p>
+                <p className="text-gold font-black text-lg sm:text-xl">24h</p>
                 <p className="text-white/60 text-xs mt-0.5">Avg delivery start</p>
               </motion.div>
             </div>
           </motion.div>
+
         </div>
       </div>
     </section>
