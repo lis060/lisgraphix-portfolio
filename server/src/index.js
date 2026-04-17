@@ -7,12 +7,12 @@ const contactRouter = require('./routes/contact');
 const bookingRouter = require('./routes/booking');
 
 const app = express();
-const PORT = process.env.PORT || 5174;
+const PORT = process.env.PORT || 3001;
 const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://localhost:5173';
 
 // ── Middleware ──────────────────────────────────────────────
 app.use(cors({
-  origin: [CLIENT_ORIGIN, 'http://localhost:5173', 'http://localhost:4173'],
+  origin: [CLIENT_ORIGIN, 'http://localhost:5173', 'http://localhost:5174', 'http://localhost:4173'],
   credentials: true,
 }));
 
