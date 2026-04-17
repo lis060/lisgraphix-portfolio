@@ -65,8 +65,8 @@ export default function HeroHome() {
               transition={{ delay: 0.9, duration: 0.5 }}
               className="text-muted text-lg leading-relaxed max-w-md mb-10"
             >
-              Web Design, Graphics & Software Solutions in Accra — built for businesses
-              that want real results, not just a pretty page.
+              Web Design, E-commerce & Software Development in Accra, Ghana — built for
+              businesses that want real results, not just a pretty page.
             </motion.p>
 
             {/* CTAs */}
@@ -90,7 +90,7 @@ export default function HeroHome() {
                 className="inline-flex items-center gap-2 px-7 py-4 rounded-xl border border-gold/40 text-gold font-semibold text-sm hover:border-gold hover:bg-gold/5 transition-all"
               >
                 <MessageCircle className="w-4 h-4" />
-                Chat on WhatsApp
+                Get Free Quote on WhatsApp
               </a>
             </motion.div>
 

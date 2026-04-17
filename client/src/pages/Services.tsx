@@ -14,9 +14,27 @@ export default function Services() {
   return (
     <PageTransition>
       <SEO
-        title="Services"
-        description="Web Design, E-commerce, Graphic Design, Software Development & Automation — premium digital services for Ghanaian businesses."
+        title="Web Design & Digital Services in Accra Ghana"
+        description="Professional web design, e-commerce development, graphic design, software development and social media services in Accra, Ghana. Affordable pricing starting from ₵1,000. Get a free quote from Lisgraphix today."
         path="/services"
+        keywords="web design services Accra, website development Ghana, e-commerce website Ghana, graphic design Accra, software development Ghana, social media design Ghana, affordable web designer Ghana"
+        schema={{
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          serviceType: 'Web Design and Digital Marketing',
+          provider: { '@id': 'https://lisgraphix.com/#business' },
+          areaServed: { '@type': 'Country', name: 'Ghana' },
+          hasOfferCatalog: {
+            '@type': 'OfferCatalog',
+            name: 'Lisgraphix Digital Services',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, item: { '@type': 'Service', name: 'Website Design', description: 'Custom responsive website design for businesses in Ghana', offers: { '@type': 'Offer', price: '1000', priceCurrency: 'GHS' } } },
+              { '@type': 'ListItem', position: 2, item: { '@type': 'Service', name: 'E-commerce Development', description: 'Online store with payment integration for Ghanaian businesses' } },
+              { '@type': 'ListItem', position: 3, item: { '@type': 'Service', name: 'Graphic Design', description: 'Logos, flyers, branding for businesses in Accra and Ghana' } },
+              { '@type': 'ListItem', position: 4, item: { '@type': 'Service', name: 'Software Development', description: 'Custom web apps and business software in Ghana' } },
+            ],
+          },
+        }}
       />
 
       {/* Hero */}
@@ -27,11 +45,11 @@ export default function Services() {
               <span className="w-8 h-px bg-gold" /> What We Do
             </p>
             <h1 className="text-5xl md:text-6xl font-black tracking-tight text-white mb-6 max-w-3xl">
-              Full-spectrum digital services for growing businesses
+              Web Design & Digital Services in Accra, Ghana
             </h1>
             <p className="text-muted text-lg max-w-xl leading-relaxed">
-              From a simple brochure website to a fully custom e-commerce platform — we cover
-              every dimension of your digital presence, all under one roof.
+              From a simple business website to a fully custom e-commerce platform — Lisgraphix
+              covers every dimension of your digital presence, built for the Ghanaian market.
             </p>
           </Reveal>
         </div>
@@ -78,7 +96,7 @@ export default function Services() {
                   <div className={`${isEven ? 'lg:order-2' : ''} rounded-3xl overflow-hidden aspect-video bg-charcoal border border-white/10`}>
                     <img
                       src={service.image}
-                      alt={service.title}
+                      alt={`${service.title} in Accra Ghana — professional digital service by Lisgraphix`}
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />

@@ -17,9 +17,18 @@ export default function Portfolio() {
   return (
     <PageTransition>
       <SEO
-        title="Portfolio"
-        description="Browse Lisgraphix's portfolio — websites, e-commerce stores, branding, and software projects for clients across Ghana."
+        title="Portfolio — Web Design Projects in Ghana"
+        description="Explore Lisgraphix's portfolio of web design, e-commerce, branding, and software projects built for businesses across Ghana — including Accra, Tema and Kumasi. See real results from real clients."
         path="/portfolio"
+        keywords="web design portfolio Ghana, website examples Accra, e-commerce website Ghana examples, graphic design portfolio Ghana, Lisgraphix portfolio"
+        schema={{
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: 'Lisgraphix Portfolio — Web Design Projects in Ghana',
+          description: 'Portfolio of web design, e-commerce, and software projects for Ghanaian businesses',
+          url: 'https://lisgraphix.com/portfolio',
+          isPartOf: { '@id': 'https://lisgraphix.com/#website' },
+        }}
       />
 
       {/* Hero */}
@@ -67,7 +76,7 @@ export default function Portfolio() {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} — ${project.category} project by Lisgraphix, web design agency in Accra Ghana`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />

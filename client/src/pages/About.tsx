@@ -24,9 +24,18 @@ export default function About() {
   return (
     <PageTransition>
       <SEO
-        title="About"
-        description="Meet Listowell Dei Anane — Ghana-based soldier, web designer, and software developer helping businesses grow online through modern digital solutions."
+        title="About — Listowell Dei Anane, Web Designer in Accra Ghana"
+        description="Meet Listowell Dei Anane — Ghana-based soldier turned self-taught web designer and software developer. 2+ years building modern websites for businesses in Accra and across Ghana. Learn the story behind Lisgraphix."
         path="/about"
+        keywords="Lisgraphix about, web designer Accra Ghana, Listowell Dei Anane, self-taught web developer Ghana, Ghana web design agency"
+        schema={{
+          '@context': 'https://schema.org',
+          '@type': 'AboutPage',
+          name: 'About Lisgraphix — Web Designer in Accra Ghana',
+          url: 'https://lisgraphix.com/about',
+          isPartOf: { '@id': 'https://lisgraphix.com/#website' },
+          about: { '@id': 'https://lisgraphix.com/#business' },
+        }}
       />
 
       {/* Hero */}

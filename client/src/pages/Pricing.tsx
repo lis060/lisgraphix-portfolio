@@ -10,9 +10,20 @@ export default function Pricing() {
   return (
     <PageTransition>
       <SEO
-        title="Pricing"
-        description="Transparent, all-inclusive pricing for web design, e-commerce, and software development in Ghana. Starter from GHS 2,500."
+        title="Pricing — Affordable Web Design Packages in Ghana"
+        description="Transparent, affordable web design pricing for businesses in Ghana. Starter package from ₵1,000. Business package from ₵2,000. Premium from ₵4,000. No hidden fees. WhatsApp for a free quote."
         path="/pricing"
+        keywords="web design price Ghana, affordable website cost Accra, how much does a website cost in Ghana, web design packages Ghana, website pricing GHS"
+        schema={{
+          '@context': 'https://schema.org',
+          '@type': 'PriceSpecification',
+          name: 'Lisgraphix Web Design Pricing',
+          description: 'Affordable web design packages for businesses in Ghana',
+          url: 'https://lisgraphix.com/pricing',
+          priceCurrency: 'GHS',
+          minPrice: '1000',
+          maxPrice: '4000',
+        }}
       />
 
       {/* Hero */}

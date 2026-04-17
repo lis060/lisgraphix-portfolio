@@ -62,9 +62,17 @@ export default function Contact() {
   return (
     <PageTransition>
       <SEO
-        title="Contact"
-        description="Get in touch with Lisgraphix — WhatsApp, email, or contact form. Based in Accra, Ghana."
+        title="Contact — Hire a Web Designer in Accra Ghana"
+        description="Get in touch with Lisgraphix to start your website project. WhatsApp, email, or contact form — we respond within 24 hours. Based in Accra, Ghana. Free quotes available."
         path="/contact"
+        keywords="contact web designer Accra, hire web developer Ghana, get website quote Ghana, WhatsApp web designer Ghana, Lisgraphix contact"
+        schema={{
+          '@context': 'https://schema.org',
+          '@type': 'ContactPage',
+          name: 'Contact Lisgraphix — Web Designer in Accra Ghana',
+          url: 'https://lisgraphix.com/contact',
+          isPartOf: { '@id': 'https://lisgraphix.com/#website' },
+        }}
       />
 
       {/* Hero */}
