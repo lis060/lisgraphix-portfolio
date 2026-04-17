@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider } from './context/ThemeContext';
@@ -7,6 +7,15 @@ import Loader from './components/Loader';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import WhatsAppFAB from './components/WhatsAppFAB';
+
+// Scroll to top on every page navigation
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [pathname]);
+  return null;
+}
 
 // Lazy-loaded public pages
 const Home = React.lazy(() => import('./pages/Home'));
@@ -38,6 +47,7 @@ function AnimatedRoutes() {
 
   return (
     <>
+      <ScrollToTop />
       {!isStandalone && <Loader />}
       {!isStandalone && <Navbar />}
 
