@@ -6,79 +6,79 @@
 
   <!-- Core pages -->
   <url>
-    <loc>https://lisgraphix.com/</loc>
+    <loc>https://lisgraphix.dev/</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/services</loc>
+    <loc>https://lisgraphix.dev/services</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/portfolio</loc>
+    <loc>https://lisgraphix.dev/portfolio</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/pricing</loc>
+    <loc>https://lisgraphix.dev/pricing</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/about</loc>
+    <loc>https://lisgraphix.dev/about</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/contact</loc>
+    <loc>https://lisgraphix.dev/contact</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/booking</loc>
+    <loc>https://lisgraphix.dev/booking</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/case-studies</loc>
+    <loc>https://lisgraphix.dev/case-studies</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/case-studies/elegance-barbering-spa</loc>
+    <loc>https://lisgraphix.dev/case-studies/elegance-barbering-spa</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/case-studies/lusso-homes-accra</loc>
+    <loc>https://lisgraphix.dev/case-studies/lusso-homes-accra</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/case-studies/suit-up-fashion</loc>
+    <loc>https://lisgraphix.dev/case-studies/suit-up-fashion</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/resources</loc>
+    <loc>https://lisgraphix.dev/resources</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/dashboard</loc>
+    <loc>https://lisgraphix.dev/dashboard</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.40</priority>
@@ -86,19 +86,19 @@
 
   <!-- Demo sites (indexed for portfolio visibility) -->
   <url>
-    <loc>https://lisgraphix.com/demos/elegance</loc>
+    <loc>https://lisgraphix.dev/demos/elegance</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/demos/lusso</loc>
+    <loc>https://lisgraphix.dev/demos/lusso</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://lisgraphix.com/demos/suitup</loc>
+    <loc>https://lisgraphix.dev/demos/suitup</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>
