@@ -1,0 +1,183 @@
+WHATSAPP BUSINESS SETUP GUIDE
+==============================
+Created by Lisgraphix | lisgraphix17@gmail.com
+Complete setup for Ghanaian business owners
+==============================
+
+WHY WHATSAPP BUSINESS?
+- 95%+ of Ghanaians use WhatsApp daily
+- Customers prefer to chat before buying
+- Automated replies = leads even when you sleep
+- Free to use, professional appearance
+
+==============================
+STEP 1 — DOWNLOAD THE APP
+==============================
+1. Go to Play Store or App Store
+2. Search "WhatsApp Business" (green icon with B)
+3. Download and install
+4. Register with your BUSINESS phone number
+   (different from your personal WhatsApp number)
+
+==============================
+STEP 2 — SET UP YOUR BUSINESS PROFILE
+==============================
+Open WhatsApp Business → Settings → Business Profile
+
+Fill in ALL of these:
+[ ] Business Name (your real business name)
+[ ] Business Category (choose closest match)
+[ ] Description (what you do, in 2-3 sentences)
+[ ] Address (your location in Ghana)
+[ ] Business Hours (Mon-Fri 8am-6pm etc.)
+[ ] Website (your website URL)
+[ ] Email address
+
+TIP: A complete profile = more trust = more sales
+
+==============================
+STEP 3 — SET UP AUTOMATED REPLIES
+==============================
+
+A) GREETING MESSAGE (sent when someone messages first)
+Settings → Business Tools → Greeting Message → Turn ON
+
+Example greeting:
+"Hello! Welcome to [Your Business Name]. 
+Thank you for reaching out!
+
+We offer:
+✓ [Service 1]
+✓ [Service 2]  
+✓ [Service 3]
+
+How can we help you today? 😊"
+
+---
+
+B) AWAY MESSAGE (sent when you're offline)
+Settings → Business Tools → Away Message → Turn ON
+Set hours: outside your business hours
+
+Example away message:
+"Hi! We're currently closed but we'll reply first thing 
+in the morning.
+
+Our hours: Mon-Sat, 8am-7pm
+
+For urgent matters, call: +233 XX XXX XXXX
+
+We look forward to serving you! 🙏"
+
+==============================
+STEP 4 — CREATE QUICK REPLIES
+==============================
+Settings → Business Tools → Quick Replies
+
+These are shortcuts for messages you send often.
+
+Shortcut: /price
+Message: 
+"Our pricing:
+• Service 1 — GHS XX
+• Service 2 — GHS XX
+• Service 3 — GHS XX
+
+Payment: Mobile Money accepted ✓
+To book: Just confirm your preferred date and time!"
+
+---
+
+Shortcut: /location
+Message:
+"We are located at:
+📍 [Your Address], [Area], Accra
+
+Landmark: Near [Landmark]
+
+Google Maps: [paste your Google Maps link]
+
+We're open: [Your hours]"
+
+---
+
+Shortcut: /booking
+Message:
+"To book an appointment, please share:
+1. Your name
+2. Service needed
+3. Preferred date
+4. Preferred time
+
+We'll confirm within 30 minutes! ✅"
+
+==============================
+STEP 5 — SET UP YOUR CATALOGUE
+==============================
+Settings → Business Tools → Catalogue → Add Product
+
+For each product/service add:
+- Name
+- Price (in GHS)
+- Description
+- Photo (use a clean, bright image)
+
+This turns your WhatsApp into a mini shop!
+
+==============================
+STEP 6 — GET YOUR WHATSAPP LINK
+==============================
+Your direct WhatsApp link format:
+https://wa.me/233XXXXXXXXX
+
+Replace X with your number (no spaces, no +, no 0 at start)
+Example: +233 54 449 0241 → wa.me/233544490241
+
+Put this link:
+- In your Instagram bio
+- On your website (big green button)
+- In your email signature
+- On your Facebook page
+- On your business card
+
+==============================
+STEP 7 — WHATSAPP STATUS STRATEGY
+==============================
+Post to WhatsApp Status EVERY DAY:
+- Monday: Motivational quote + your service
+- Tuesday: Before & after / client result photo  
+- Wednesday: A tip related to your industry
+- Thursday: Product/service highlight
+- Friday: Weekend promo or offer
+- Saturday: Client testimonial
+- Sunday: Behind the scenes / personal story
+
+Views on status = free marketing to your contacts!
+
+==============================
+STEP 8 — WHATSAPP BROADCAST LISTS
+==============================
+Send one message to many clients at once.
+(Unlike groups — each person receives it privately)
+
+How to use:
+1. Contacts → New Broadcast
+2. Add your clients (they must have your number saved)
+3. Type message → Send
+
+Use for: Promotions, new products, announcements
+
+==============================
+PRO TIPS
+==============================
+✓ Always reply within 1 hour during business hours
+✓ Use voice notes for complex explanations
+✓ Save client names in your phone contacts
+✓ Never spam — only message clients who know you
+✓ Always end conversations professionally
+
+==============================
+Need your website to have a WhatsApp button?
+WhatsApp Lisgraphix: wa.me/233544490241
+Email: lisgraphix17@gmail.com
+==============================

@@ -1,0 +1,66 @@
+WEBSITE LAUNCH CHECKLIST
+========================
+Created by Lisgraphix | lisgraphix17@gmail.com | +233 54 449 0241
+For Ghanaian businesses launching a new website.
+================================================
+
+SECTION 1 — DESIGN & CONTENT
+[ ] All pages have unique, descriptive titles
+[ ] Meta descriptions written for every page (150-160 chars)
+[ ] All images have alt text
+[ ] Logo is high quality (SVG or 2x PNG)
+[ ] Favicon is set (browser tab icon)
+[ ] Fonts are loading correctly on all devices
+[ ] Brand colors are consistent throughout
+[ ] All placeholder text (Lorem Ipsum) removed
+[ ] Contact details are correct (phone, email, location)
+[ ] Business hours are accurate
+[ ] All prices are correct and up to date
+
+SECTION 2 — MOBILE & PERFORMANCE
+[ ] Website looks great on mobile (test on real phone)
+[ ] Website looks great on tablet
+[ ] All buttons are easy to tap on mobile (min 44px)
+[ ] Images are compressed (use squoosh.app)
+[ ] Website loads in under 3 seconds
+[ ] No broken images or missing files
+[ ] Videos are not auto-playing with sound
+[ ] Google PageSpeed score above 80 (pagespeed.web.dev)
+
+SECTION 3 — SEO (GET FOUND ON GOOGLE)
+[ ] Google Search Console connected
+[ ] Google Analytics 4 installed and tracking
+[ ] sitemap.xml submitted to Google
+[ ] robots.txt file is in place
+[ ] All pages have H1 headings
+[ ] Keywords relevant to your business are in headings
+[ ] Business is listed on Google Business Profile
+[ ] NAP consistent (Name, Address, Phone) across web
+
+SECTION 4 — FUNCTIONALITY
+[ ] Contact form sends emails correctly (test it!)
+[ ] WhatsApp button opens correct number
+[ ] All links work (no 404 errors)
+[ ] Social media links go to correct profiles
+[ ] Payment system tested (if e-commerce)
+[ ] Booking system tested (if applicable)
+[ ] SSL certificate active (https:// in address bar)
+[ ] Privacy Policy page exists
+
+SECTION 5 — SOCIAL MEDIA & MARKETING
+[ ] Open Graph image set (for WhatsApp/Facebook sharing)
+[ ] Website URL added to all social media bios
+[ ] First post announcing website is ready
+[ ] WhatsApp Business profile updated with website link
+
+SECTION 6 — BACKUP & SECURITY
+[ ] Website backup configured
+[ ] Admin password is strong (not your name or 1234)
+[ ] Hosting plan confirmed and paid
+[ ] Domain renewal date noted in calendar
+[ ] Developer contact saved (Lisgraphix +233 54 449 0241)
+
+================================================
+Need help? WhatsApp Lisgraphix: wa.me/233544490241
+Website: lisgraphix.com
+================================================
