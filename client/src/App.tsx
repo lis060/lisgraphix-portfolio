@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 import Loader from './components/Loader';
@@ -84,6 +85,7 @@ export default function App() {
         <AuthProvider>
           <div className="min-h-screen flex flex-col bg-ink dark:bg-ink">
             <AnimatedRoutes />
+            <Analytics />
           </div>
         </AuthProvider>
       </ThemeProvider>
