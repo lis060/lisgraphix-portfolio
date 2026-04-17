@@ -152,20 +152,25 @@ function StatsTab({ addToast }: { addToast: (msg: string, type: 'success' | 'err
 
       {/* Growth strings */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <p className="text-muted text-xs md:col-span-2 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
+          <span className="text-gold font-semibold">Growth Text fields</span> — these are the small helper lines shown below each number on the public dashboard.
+          Example: <span className="text-white">"+3 this month"</span> or <span className="text-white">"+12% vs last month"</span>
+        </p>
         {(
           [
-            { key: 'clients_growth', label: 'Clients Growth Text' },
-            { key: 'projects_growth', label: 'Projects Growth Text' },
-            { key: 'revenue_growth', label: 'Revenue Growth Text' },
-            { key: 'tasks_growth', label: 'Tasks Growth Text' },
-          ] as { key: keyof DashboardStats; label: string }[]
-        ).map(({ key, label }) => (
+            { key: 'clients_growth', label: 'Clients — Growth Text', placeholder: 'e.g. +3 this month' },
+            { key: 'projects_growth', label: 'Projects — Growth Text', placeholder: 'e.g. 2 due this week' },
+            { key: 'revenue_growth', label: 'Revenue — Growth Text', placeholder: 'e.g. +12% vs last month' },
+            { key: 'tasks_growth', label: 'Tasks — Growth Text', placeholder: 'e.g. 143 of 164 done' },
+          ] as { key: keyof DashboardStats; label: string; placeholder: string }[]
+        ).map(({ key, label, placeholder }) => (
           <div key={key} className="space-y-1.5">
             <label className="text-xs text-muted font-medium uppercase tracking-wider">
               {label}
             </label>
             <input
               type="text"
+              placeholder={placeholder}
               value={stats[key] as string}
               onChange={(e) => setField(key, e.target.value as DashboardStats[typeof key])}
               className="w-full px-4 py-3 rounded-xl bg-ink/60 border border-white/10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold/50 transition"
